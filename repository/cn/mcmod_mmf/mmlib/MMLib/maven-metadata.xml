@@ -3,8 +3,8 @@
   <groupId>cn.mcmod_mmf.mmlib</groupId>
   <artifactId>MMLib</artifactId>
   <versioning>
-    <latest>1.4.4-1.18.2</latest>
-    <release>1.4.4-1.18.2</release>
+    <latest>1.4.5-1.18.2</latest>
+    <release>1.4.5-1.18.2</release>
     <versions>
       <version>1.0.3-1.18.2</version>
       <version>1.0.4-1.18.2</version>
@@ -21,7 +21,8 @@
       <version>1.4.1-1.18.2</version>
       <version>1.4.2-1.18.2</version>
       <version>1.4.4-1.18.2</version>
+      <version>1.4.5-1.18.2</version>
     </versions>
-    <lastUpdated>20231230192717</lastUpdated>
+    <lastUpdated>20231230202402</lastUpdated>
   </versioning>
 </metadata>
