@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "mods.flammpfeil.slashblade",
+    "module": "SlashBladeResharped-1.20.1",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "SlashBladeResharped-1.20.1-0.6.0.jar",
+          "url": "SlashBladeResharped-1.20.1-0.6.0.jar",
+          "size": 3701190,
+          "sha512": "7e82e986c97133b34224d273ebcb2ec3ec4fa324a0e541cceed2e9c387be7106745a207353c81e8479ca475e16879e80bc44458450a2edf04852de35d23c5d55",
+          "sha256": "1de83c239d5314b678499f2be23d0aa41a08e47a59fd7f77ebe30345880c6dfc",
+          "sha1": "9ab286f0392c232f3cb56a4883a0d2ad4a117ddb",
+          "md5": "6d35a6d9f06d754b036086bfec532251"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.kosmx.player-anim",
+          "module": "player-animation-lib-forge",
+          "version": {
+            "strictly": "1.0.2-rc1+1.20_mapped_official_1.20.1",
+            "requires": "1.0.2-rc1+1.20_mapped_official_1.20.1"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "forge",
+          "version": {
+            "requires": "1.20.1-47.1.44_mapped_official_1.20.1_at_af30762ab15aae8bdb90bb2efc36660b4dd01840"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge",
+          "version": {
+            "strictly": "15.2.0.27_mapped_official_1.20.1",
+            "requires": "15.2.0.27_mapped_official_1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "SlashBladeResharped-1.20.1-0.6.0.jar",
+          "url": "SlashBladeResharped-1.20.1-0.6.0.jar",
+          "size": 3701190,
+          "sha512": "7e82e986c97133b34224d273ebcb2ec3ec4fa324a0e541cceed2e9c387be7106745a207353c81e8479ca475e16879e80bc44458450a2edf04852de35d23c5d55",
+          "sha256": "1de83c239d5314b678499f2be23d0aa41a08e47a59fd7f77ebe30345880c6dfc",
+          "sha1": "9ab286f0392c232f3cb56a4883a0d2ad4a117ddb",
+          "md5": "6d35a6d9f06d754b036086bfec532251"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "SlashBladeResharped-1.20.1-0.6.0-sources.jar",
+          "url": "SlashBladeResharped-1.20.1-0.6.0-sources.jar",
+          "size": 3367013,
+          "sha512": "76b40ab9c460714b4dee5ea432f5cc102025aefbcc6b034207ca550c214ab42794216859f8e7236d823cef3a8030bb9383a48e3981476e2eeaa74dde01a60f20",
+          "sha256": "e4cb54dffbcf431ed28b2871ccb3e7043687ad9336964aae0536f7c7992eb66c",
+          "sha1": "7c4e0d86565cf8d22e1c6bead806b38d2be6930a",
+          "md5": "e22b5d8c449b62ffce80eb5f70de0f9f"
+        }
+      ]
+    }
+  ]
+}
