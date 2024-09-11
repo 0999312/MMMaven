@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.tracen.umapyoi</groupId>
+  <artifactId>Umapyoi</artifactId>
+  <version>1.0.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>cn.mcmod_mmf.mysterious_mountain_lib</groupId>
+      <artifactId>MMLib</artifactId>
+      <version>1.0.0-1.21</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>top.theillusivec4.curios</groupId>
+      <artifactId>curios-neoforge</artifactId>
+      <version>9.0.5+1.21</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>mezz.jei</groupId>
+      <artifactId>jei-1.21-neoforge</artifactId>
+      <version>19.8.2.99</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>vazkii.patchouli</groupId>
+      <artifactId>Patchouli</artifactId>
+      <version>1.21-87-NEOFORGE-SNAPSHOT</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

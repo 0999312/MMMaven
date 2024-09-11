@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.tracen.umapyoi",
+    "module": "Umapyoi",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "Umapyoi-1.0.0.jar",
+          "url": "Umapyoi-1.0.0.jar",
+          "size": 2543190,
+          "sha512": "c4814eeb5bd7cf33cdcc779a4f152d2de444ba96878c89889cac08e858e78d6dd3dc666c98ce81bcba26ab3b05c49f8bd46c56abdec117b2b8686784c8c87e79",
+          "sha256": "6d018cac3b6a184b732abd446634132e697a3b6f0dce63dd8f036b6af804ed17",
+          "sha1": "03fa9feccb168d20c573b8f600f80ade0b313e40",
+          "md5": "3fb209adb6cdf10e5a3d11b6687cd0b6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "cn.mcmod_mmf.mysterious_mountain_lib",
+          "module": "MMLib",
+          "version": {
+            "requires": "1.0.0-1.21"
+          }
+        },
+        {
+          "group": "top.theillusivec4.curios",
+          "module": "curios-neoforge",
+          "version": {
+            "requires": "9.0.5+1.21"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21-neoforge",
+          "version": {
+            "requires": "19.8.2.99"
+          }
+        },
+        {
+          "group": "vazkii.patchouli",
+          "module": "Patchouli",
+          "version": {
+            "requires": "1.21-87-NEOFORGE-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Umapyoi-1.0.0.jar",
+          "url": "Umapyoi-1.0.0.jar",
+          "size": 2543190,
+          "sha512": "c4814eeb5bd7cf33cdcc779a4f152d2de444ba96878c89889cac08e858e78d6dd3dc666c98ce81bcba26ab3b05c49f8bd46c56abdec117b2b8686784c8c87e79",
+          "sha256": "6d018cac3b6a184b732abd446634132e697a3b6f0dce63dd8f036b6af804ed17",
+          "sha1": "03fa9feccb168d20c573b8f600f80ade0b313e40",
+          "md5": "3fb209adb6cdf10e5a3d11b6687cd0b6"
+        }
+      ]
+    }
+  ]
+}
