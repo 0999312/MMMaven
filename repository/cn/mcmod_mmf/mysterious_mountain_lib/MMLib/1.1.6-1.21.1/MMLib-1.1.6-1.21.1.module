@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.mcmod_mmf.mysterious_mountain_lib",
+    "module": "MMLib",
+    "version": "1.1.6-1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "MMLib-1.1.6-1.21.1.jar",
+          "url": "MMLib-1.1.6-1.21.1.jar",
+          "size": 276089,
+          "sha512": "2f6034ea2fcd53f2e81632972e0f829f987609e5228d23b0e88d0a48178a6033e46998929c6458f606085f51bf1a9eaee183460fc6d1b1d41f02822e618f8e99",
+          "sha256": "0cd22c4bceca45356d8259f2f021f736e3c876e8f159fd69dfa66c76283bc319",
+          "sha1": "0cc764251d4fd14aa9fc0abbec7f04e3b5122be6",
+          "md5": "42d815bf5ded609f8f69f87e6861d14c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "MMLib-1.1.6-1.21.1.jar",
+          "url": "MMLib-1.1.6-1.21.1.jar",
+          "size": 276089,
+          "sha512": "2f6034ea2fcd53f2e81632972e0f829f987609e5228d23b0e88d0a48178a6033e46998929c6458f606085f51bf1a9eaee183460fc6d1b1d41f02822e618f8e99",
+          "sha256": "0cd22c4bceca45356d8259f2f021f736e3c876e8f159fd69dfa66c76283bc319",
+          "sha1": "0cc764251d4fd14aa9fc0abbec7f04e3b5122be6",
+          "md5": "42d815bf5ded609f8f69f87e6861d14c"
+        }
+      ]
+    }
+  ]
+}
