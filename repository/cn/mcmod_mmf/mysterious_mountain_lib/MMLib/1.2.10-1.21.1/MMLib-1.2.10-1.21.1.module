@@ -27,11 +27,11 @@
         {
           "name": "MMLib-1.2.10-1.21.1.jar",
           "url": "MMLib-1.2.10-1.21.1.jar",
-          "size": 381309,
-          "sha512": "554f3fa0d7ead8663ef5128c97db56e0de2e61adec884ed1559ed7e75440e356771e607589926f4b0980a82569d0a7d987dcf23147770069a4a7b70d500f043e",
-          "sha256": "e3fe12e4e2f246d7cef1fe85ae186c1bf492996901381217716ce81329955a0c",
-          "sha1": "eff5e441017f61fee9cf44d19ebd93e629295ed8",
-          "md5": "dd29bf5b0dde39691ab3502dcf7402bb"
+          "size": 382208,
+          "sha512": "314ae54f35298f1b625dd0b16e9d8828a3ed434342e40460cdbfeb7c85aae6a9fbf374b2acc2d3556a2cf7cd746699e0c08d1a17e465e2a572f45c4337e16451",
+          "sha256": "c7f240b8e1f55be4aee8e80a2f31c9fc20d88eb1fa526e81b650a7e6723e8ea1",
+          "sha1": "a53d9aa018d3a2c59c481cb62bc1193e22b8f9ee",
+          "md5": "2cfe4cfd0a51c47b5665b6cea9d5711c"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "MMLib-1.2.10-1.21.1.jar",
           "url": "MMLib-1.2.10-1.21.1.jar",
-          "size": 381309,
-          "sha512": "554f3fa0d7ead8663ef5128c97db56e0de2e61adec884ed1559ed7e75440e356771e607589926f4b0980a82569d0a7d987dcf23147770069a4a7b70d500f043e",
-          "sha256": "e3fe12e4e2f246d7cef1fe85ae186c1bf492996901381217716ce81329955a0c",
-          "sha1": "eff5e441017f61fee9cf44d19ebd93e629295ed8",
-          "md5": "dd29bf5b0dde39691ab3502dcf7402bb"
+          "size": 382208,
+          "sha512": "314ae54f35298f1b625dd0b16e9d8828a3ed434342e40460cdbfeb7c85aae6a9fbf374b2acc2d3556a2cf7cd746699e0c08d1a17e465e2a572f45c4337e16451",
+          "sha256": "c7f240b8e1f55be4aee8e80a2f31c9fc20d88eb1fa526e81b650a7e6723e8ea1",
+          "sha1": "a53d9aa018d3a2c59c481cb62bc1193e22b8f9ee",
+          "md5": "2cfe4cfd0a51c47b5665b6cea9d5711c"
         }
       ]
     }
