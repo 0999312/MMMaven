@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.argon4w",
+    "module": "AcceleratedRendering",
+    "version": "0.0.0-1.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "AcceleratedRendering-0.0.0-1.21.jar",
+          "url": "AcceleratedRendering-0.0.0-1.21.jar",
+          "size": 123169,
+          "sha512": "4641599f2d3f25b8a790003c93ebd650c2248d562c451c16344ef1e420bada89f5bea7f1e10ea2f4dd562d299425b2d89b68b2868c687575a7d8a92815ac7f1e",
+          "sha256": "65ec792791682e89002fb90868c422b4f52c3ba48ba81a10e0cd2324f8175fd3",
+          "sha1": "7f2ff1612bd14bedb757d2ef19b3f04d194865fd",
+          "md5": "19053321e311fae1643c17227fdc7b98"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "maven.modrinth",
+          "module": "sodium",
+          "version": {
+            "requires": "mc1.21-0.6.0-beta.1-neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "iris",
+          "version": {
+            "requires": "1.8.0-beta.2+1.21-neoforge"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "AcceleratedRendering-0.0.0-1.21.jar",
+          "url": "AcceleratedRendering-0.0.0-1.21.jar",
+          "size": 123169,
+          "sha512": "4641599f2d3f25b8a790003c93ebd650c2248d562c451c16344ef1e420bada89f5bea7f1e10ea2f4dd562d299425b2d89b68b2868c687575a7d8a92815ac7f1e",
+          "sha256": "65ec792791682e89002fb90868c422b4f52c3ba48ba81a10e0cd2324f8175fd3",
+          "sha1": "7f2ff1612bd14bedb757d2ef19b3f04d194865fd",
+          "md5": "19053321e311fae1643c17227fdc7b98"
+        }
+      ]
+    }
+  ]
+}
