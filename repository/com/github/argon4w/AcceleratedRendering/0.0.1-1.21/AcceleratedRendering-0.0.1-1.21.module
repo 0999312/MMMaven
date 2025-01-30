@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.argon4w",
+    "module": "AcceleratedRendering",
+    "version": "0.0.1-1.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "AcceleratedRendering-0.0.1-1.21.jar",
+          "url": "AcceleratedRendering-0.0.1-1.21.jar",
+          "size": 147511,
+          "sha512": "2532a3e7c2c821f534a5fcde0f2ebae3bba146823b34c689d39cfec4b1afcd262b410ffa74b0c6e39338f7086a4e14d909200bdd5a180308a694cde44a481db6",
+          "sha256": "6b71ad195770fcca5614190b9b4b8e2fae6e2be25814375d0173cc2cdf1daaa1",
+          "sha1": "df74498e50d8c074844014f6e50ecd26003c5bd4",
+          "md5": "52988bc91998b86cfa810fc2ee3f78f8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "maven.modrinth",
+          "module": "sodium",
+          "version": {
+            "requires": "mc1.21-0.6.0-beta.1-neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "iris",
+          "version": {
+            "requires": "1.8.0-beta.2+1.21-neoforge"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "AcceleratedRendering-0.0.1-1.21.jar",
+          "url": "AcceleratedRendering-0.0.1-1.21.jar",
+          "size": 147511,
+          "sha512": "2532a3e7c2c821f534a5fcde0f2ebae3bba146823b34c689d39cfec4b1afcd262b410ffa74b0c6e39338f7086a4e14d909200bdd5a180308a694cde44a481db6",
+          "sha256": "6b71ad195770fcca5614190b9b4b8e2fae6e2be25814375d0173cc2cdf1daaa1",
+          "sha1": "df74498e50d8c074844014f6e50ecd26003c5bd4",
+          "md5": "52988bc91998b86cfa810fc2ee3f78f8"
+        }
+      ]
+    }
+  ]
+}
