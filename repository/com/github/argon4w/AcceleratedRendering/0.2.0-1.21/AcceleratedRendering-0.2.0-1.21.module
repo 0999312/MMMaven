@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.argon4w",
+    "module": "AcceleratedRendering",
+    "version": "0.2.0-1.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "AcceleratedRendering-0.2.0-1.21.jar",
+          "url": "AcceleratedRendering-0.2.0-1.21.jar",
+          "size": 271767,
+          "sha512": "2d69345a08ca1ea0773477fb034744de3cd1eb9fd868415471f2c590ce46823597b667e6ba6ff8aae948617906d230716aa79a4088cc4387f04dc32eb6eece04",
+          "sha256": "339a33d615f9d627953628c7696046d47a7656078573561f3b7dad852c01a75f",
+          "sha1": "05b4bfa5686f2b6ac755864c2c29a7f3b5c9165a",
+          "md5": "4f9c770556116986d25cb951960ff523"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "maven.modrinth",
+          "module": "sodium",
+          "version": {
+            "requires": "mc1.21.1-0.6.9-neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "iris",
+          "version": {
+            "requires": "1.8.8+1.21.1-neoforge"
+          }
+        },
+        {
+          "group": "com.github.tartaricacid",
+          "module": "touhoulittlemaid-1.21.1",
+          "version": {
+            "requires": "release-1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "AcceleratedRendering-0.2.0-1.21.jar",
+          "url": "AcceleratedRendering-0.2.0-1.21.jar",
+          "size": 271767,
+          "sha512": "2d69345a08ca1ea0773477fb034744de3cd1eb9fd868415471f2c590ce46823597b667e6ba6ff8aae948617906d230716aa79a4088cc4387f04dc32eb6eece04",
+          "sha256": "339a33d615f9d627953628c7696046d47a7656078573561f3b7dad852c01a75f",
+          "sha1": "05b4bfa5686f2b6ac755864c2c29a7f3b5c9165a",
+          "md5": "4f9c770556116986d25cb951960ff523"
+        }
+      ]
+    }
+  ]
+}
