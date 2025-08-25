@@ -3,8 +3,8 @@
   <groupId>mods.flammpfeil.slashblade</groupId>
   <artifactId>SlashBlade_Resharped</artifactId>
   <versioning>
-    <latest>1.4.46</latest>
-    <release>1.4.46</release>
+    <latest>1.5.49</latest>
+    <release>1.5.49</release>
     <versions>
       <version>0.6.0</version>
       <version>0.7.0</version>
@@ -25,7 +25,8 @@
       <version>1.4.44</version>
       <version>1.4.45</version>
       <version>1.4.46</version>
+      <version>1.5.49</version>
     </versions>
-    <lastUpdated>20250812171809</lastUpdated>
+    <lastUpdated>20250825200115</lastUpdated>
   </versioning>
 </metadata>
